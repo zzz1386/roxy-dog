@@ -8,6 +8,18 @@
     <link rel="styleshit" href="css/styles.css">
     
     <style>
+        .logo {
+            width: 30px;
+            height: 44px;
+            orientation: left;
+            display: block;
+            background-image: url(icon/logo.png);
+        }
+        .logo:hover {
+            opacity: 0.4;
+            /* background-image: url(icon/logo2-hover.png) */
+        }
+        
         p {
             font-size: 20px;
             line-height: 125% ;
@@ -17,7 +29,8 @@
             margin: 40px auto 40px auto;
             text-align: center;
         }
-    .review {
+
+        .review {
         font-size: 16px;
         font-family: "Roboto";
         color: rgb(42, 42, 42);
@@ -28,84 +41,135 @@
         top: 1282.312px;
         width: 461px;
         height: 60px;
-    }
+        }
        .review-header {
-           background-color: #ffdab9;
-           /* margin: 40px auto 40px auto; */
+            background-color: rgb(255, 218, 185);
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            height: 80px;
        }
+       
+       .review-footer{
+            background-color: rgb(255, 218, 185);
+            /* position: absolute; */
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            height: 80px;
+        }
 
-
+      
        .review-kot {
         width:15%;
         height:15%; 
         background-color: #f4efed; 
         border-radius:50%; 
-        padding: 3px;
+        padding: 0.3%;
        }
        
        .button{
-        
-        opacity: 0.6;
+        width: 84px;
+        height: 84px;
+        background-image: url(icon/insta.png);
+        opacity: 0.5;
         position: fixed;
         display: block;
         border-radius:50%; 
-        left: 1269px;
-        top: 1563px;
+        left: 1400px;
+        top: 600px;
         z-index: 999999;
-}
-
+        }
+        .button:hover{
+            opacity: 1;  
+        }
+        .button2{
+        width: 84px;
+        height: 84px;
+        background-image: url(icon/tiktok.png);
+        opacity: 0.5;
+        position: fixed;
+        display: block;
+        border-radius:50%; 
+        left: 1300px;
+        top: 600px;
+        z-index: 999999;
+        }
+        .button2:hover{
+            opacity: 1;  
+        }
 
         .hello {
-       
+        background-image: url("hello.png");
         position: absolute;
-        /* left: 1024px;
-        top: 145px; */
-        width: 261px;
-        height: 174px;
-        /* border-radius:50%;  */
-        }
-        .el_1 {
+        left: 1024px;
+        top: 145px;
+        width: 169px;
+        height: 169px;
         border-width: 1px;
         border-color: rgb(255, 255, 255);
         border-style: solid;
         border-radius: 50%;
         background-color: rgb(255, 255, 255);
-        position: absolute;
-        left: 1095px;
-        top: 226px;
-        width: 169px;
-        height: 169px;
-}
+        z-index: 169;
+        }
+
+
         .foto {
             width: 50%;
             height: 50%;
             margin: 0px;
-}
+        }
         .Nastya{
             width: 50%;
             height: 50%;
+            background-color: rgb(244, 239, 237);
+            left: 98px;
+            top: 1363px;
+            width: 570px;
+            height: 216px;
           
         }
         .Rodnya{
             width: 50%;
             height: 50%;
+            background-color: rgb(244, 239, 237);
+            left: 699px;
+            top: 1363px;
+            width: 570px;
+            height: 216px;
            
+        }
+        .navigation {
+            margin: 10px 10px 10px 10px;
+            position:absolute;
+        }
+
+        .links {
+            color: black;
+
+        }
+        .links:hover {
+            color: blue;
+            
         }
 
     </style>
-
-    <a href="https://www.instagram.com/stigura/"><img src="photo/insta.png" width="84px" height="84px" class="button" alt="Instagram"></a>
+        <a class="button" alt="Instagram" href="https://www.instagram.com/stigura"></a>
+        <a class="button2" alt="Tiktok" href="https://www.tiktok.com/@vivaloriba"></a>
+   
     </head>
 <header class="review-header">
-        <a img src="photo/logo2.png" alt="лого" class="logo" title="Главная"></a>
-        <li><h1>Сайт о чудной собаке Роксет</h1></li>
-        
-        <nav>
-            <p><li><a href="/about.html">О Рокси</a></li>
-            <li><a href="/photo.html">Фото</a></li>
-            <li><a href="/video.html">Видео</a></li>
-            <li><a href="/Other.html">Прочее</a></li></p>
-        </nav>
+
+        <table>
+                <td><a class="logo" title="Главная"></a></td>
+                <td><a class="links" href="/about.html">О Рокси</a></td>
+                <td><a class="links" href="/photo.html">Фото</a></td>
+                <td><a class="links" href="/video.html">Видео</a></td>
+                <td><a class="links" href="/Other.html">Прочее</a></td>
+        </table>
+
 </header>
 
 <body>
@@ -114,10 +178,11 @@
 <h1> О Рокси </h1>
 
     <p><br> Привет. Меня зовут Рокси. Полное имя Роксет - в честь известной группы Roxette.</br> 
-    <br>А еще я Рокс, Роксюша, Роксичка, Свинюка, Кудасукабля и лошадь.</br>  
+    <br>А еще я Рокс, Роксюша, Роксичка, Свинюка, Кудасукабля и Лошадь.</br>  
     <br>Я родилась 27 декабря 2015 года.</br>  
-    <br>Люблю поскакать по полю и погонять бублик.</br></p>
-    <p><li><img class="hello, el_1" src="photo/hello.png" alt="Рокси"></li></p>
+    <br>Люблю поскакать по полю и погонять бублик.</br>
+    <br>И не подумайте, что я говорящая собака - вам показалось! Гав-Гав!</br></p>
+    <p><li><img class="hello" src="photo/hello.png" alt="Рокси" left=1024px top=145px width=169px height=169px></li></p>
    
 <!--Контент о Рокси-->
     
@@ -162,14 +227,17 @@
 
 </body>
 <!-- Футер -->
-<footer class="review-header">
-    
-<nav>
-    <li><a href="/about.html">О Рокси</a></li>
-    <li><a href="/photo.html">Фото</a></li>
-    <li><a href="/video.html">Видео</a></li>
-    <li><a href="/Other.html">Прочее</a></li>
-</nav>
+<footer class="review-footer">
+   
+    <nav>
+            <table>
+                    <td><a class="logo" title="Главная"></a></td>
+                    <td><a class="links" href="/about.html">О Рокси</a></td>
+                    <td><a class="links" href="/photo.html">Фото</a></td>
+                    <td><a class="links" href="/video.html">Видео</a></td>
+                    <td><a class="links" href="/Other.html">Прочее</a></td>
+                </table>
+    </nav>
 </footer>
 <!-- Футер -->
 </html>
