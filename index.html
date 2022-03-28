@@ -8,68 +8,39 @@
     <link rel="styleshit" href="css/styles.css">
     
     <style>
-        .logo {
-            width: 30px;
-            height: 44px;
-            orientation: left;
-            display: block;
-            background-image: url(icon/logo.png);
-        }
-        .logo:hover {
-            opacity: 0.4;
-            /* background-image: url(icon/logo2-hover.png) */
+       .review-header {
+        background-color: #ffdab9;
+        /* margin: 40px auto 40px auto; */
+       }
+       
+        html {
+        font-size: 30px;    
         }
         
-        p {
-            font-size: 20px;
-            line-height: 125% ;
-        }
-
         h1 {
-            margin: 40px auto 40px auto;
-            text-align: center;
+        font-size: 200%;
+        margin: 40px auto 40px auto;
+        text-align: center;
         }
 
-        .review {
-        font-size: 16px;
-        font-family: "Roboto";
-        color: rgb(42, 42, 42);
-        line-height: 1.375;
-        text-align: left;
-        position: absolute;
-        left: 139.797px;
-        top: 1282.312px;
-        width: 461px;
-        height: 60px;
+        h2 {
+        font-size: 150%;
+        margin: 40px auto 40px auto;
+        text-align: center;
         }
-       .review-header {
-            background-color: rgb(255, 218, 185);
-            position: absolute;
-            left: 0px;
-            top: 0px;
-            width: 100%;
-            height: 80px;
-       }
        
-       .review-footer{
-            background-color: rgb(255, 218, 185);
-            /* position: absolute; */
-            left: 0px;
-            top: 0px;
-            width: 100%;
-            height: 80px;
+        p {
+        font-size: 100%;
+        line-height: 100%;
+        }
+        
+        table {
+        padding: 20px;    
         }
 
-      
-       .review-kot {
-        width:15%;
-        height:15%; 
-        background-color: #f4efed; 
-        border-radius:50%; 
-        padding: 0.3%;
-       }
-       
-       .button{
+
+
+        .button {
         width: 84px;
         height: 84px;
         background-image: url(icon/insta.png);
@@ -77,14 +48,15 @@
         position: fixed;
         display: block;
         border-radius:50%; 
-        left: 1400px;
-        top: 600px;
+        left: 90%;
+        top: 90%;
         z-index: 999999;
         }
-        .button:hover{
-            opacity: 1;  
+        .button:hover {
+        opacity: 1;  
         }
-        .button2{
+
+        .button2 {
         width: 84px;
         height: 84px;
         background-image: url(icon/tiktok.png);
@@ -92,176 +64,206 @@
         position: fixed;
         display: block;
         border-radius:50%; 
-        left: 1300px;
-        top: 600px;
+        left: 94.5%;
+        top: 90%;
         z-index: 999999;
         }
-        .button2:hover{
-            opacity: 1;  
+        .button2:hover {
+        opacity: 1;
+        }
+
+        .logo {
+            width: 30px;
+            height: 44px;
+            margin: 10px;
+            display: block;
+            background-image: url(icon/logo.png);
+        }
+        .logo:hover {
+            opacity: 0.4;
+            /* background-image: url(icon/logo2-hover.png) */
         }
 
         .hello {
-        background-image: url("hello.png");
-        position: absolute;
-        left: 1024px;
-        top: 145px;
-        width: 169px;
-        height: 169px;
         border-width: 1px;
         border-color: rgb(255, 255, 255);
         border-style: solid;
         border-radius: 50%;
         background-color: rgb(255, 255, 255);
-        z-index: 169;
+        width: 250px;
+        height: 250px;
         }
 
-
-        /* .foto1 {
-            width: auto;
-            height: auto;
-            margin: 10px;
-        }
-
-        .foto2 {
-            width: auto;
-            height: auto;
-            margin: 10px;
-        } */
-        .other{
-            background-color: rgb(244, 239, 237);
-            width: 40%;
-            height: 50%;
-        }
         .nastya{
 
-            left: 98px;
-            top: 1363px;
-            /* width: 570px;
-            height: 216px; */
-            }
+        left: 98px;
+        top: 1363px;
+        /* width: 570px;
+        height: 216px; */
+        }
 
         .rodnya{
 
-            top: 1363px;
-            /* width: 570px;
-            height: 216px; */
-            }
+        top: 1363px;
+        /* width: 570px;
+        height: 216px; */
+        }
 
+        .review-kot {
+        width:15%;
+        height:15%; 
+        background-color: #f4efed; 
+        border-radius:50%; 
+        padding: 0.3%;
+        }
 
         .links {
             color: black;
-
         }
         .links:hover {
-            color: blue;
-            
-        }
-
-        table {
-            margin: 10px;
-
+            opacity: 0.4;
         }
 
     </style>
-        <a class="button" alt="Instagram" href="https://www.instagram.com/stigura"></a>
-        <a class="button2" alt="Tiktok" href="https://www.tiktok.com/@vivaloriba"></a>
-   
-    </head>
+
+    <a class="button" alt="Instagram" href="https://www.instagram.com/stigura/"></a>
+    <a class="button2" alt="Tiktok" href="https://www.tiktok.com/@vivaloriba"></a>
+</head>
+
 <header class="review-header">
+ 
+        <table width="40%">
+            <colgroup>
+                <col width="50">
+                <col width="120">
+                <col width="120">
+                <col width="120">
+                <col width="120">
+            </colgroup>
 
-        <table>
-                <td><a class="logo" title="Главная"></a></td>
-                <td><a class="links" href="/about.html">О Рокси</a></td>
-                <td><a class="links" href="/photo.html">Фото</a></td>
-                <td><a class="links" href="/video.html">Видео</a></td>
-                <td><a class="links" href="/Other.html">Прочее</a></td>
+            <td><a class="logo" img src="photo/logo2.png" alt="лого" title="Главная"></a></td>
+            <td><a class="links" href="#about">О Рокси</a></td>
+            <td><a class="links" href="#photo">Фото</a></td>
+            <td><a class="links" href="#video">Видео</a></td>
+            <td><a class="links" href="#other">Прочее</a></td>
         </table>
-
+ 
 </header>
 
 <body>
-<!--Контент о Рокси-->
-
-<h1> О Рокси </h1>
-
-    <p><br> Привет. Меня зовут Рокси. Полное имя Роксет - в честь известной группы Roxette.</br> 
-    <br>А еще я Рокс, Роксюша, Роксичка, Свинюка, Кудасукабля и Лошадь.</br>  
-    <br>Официально я собака и моя порода американский стаффорд или амстафф.</br>  
-    <br>Я родилась 27 декабря 2015 года. Люблю поскакать по полю и погонять бублик.</br>
-    <br>И не подумайте, что я говорящая собака - вам показалось! Гав-Гав!</br></p>
-    <p><img class="hello" src="photo/hello.png" alt="Рокси" left=1024px top=145px width=169px height=169px></p>
-</th>   
 
 <!--Контент о Рокси-->
+<h1>Сайт о чудной собаке Роксет</h1>
+<h2 id="about">О Рокси</h2>
+
     
-<!--Контент Фото -->
-
-<h1> Фото </h1>
-<div>
     <table>
+        <colgroup>
+        <col width="75%">
+        </colgroup>
+        
     <tr>
-    <td> <img src="photo/04.jpg" alt="Рокси" width:30%, height="auto"> </td> 
-    <td><img src="photo/05.jpg" alt="Рокси" width="auto" height="auto"> </td>  
-    <td><img src="photo/06.jpg" alt="Рокси" width="auto" height="auto"> </td>  
+        <td>Привет. Меня зовут Рокси. Полное имя Роксет - в честь известной группы Roxette.</td>
+        <th rowspan="4"><img class="hello" src="photo/hello.png" alt="Рокси"></th>
     </tr>
-</div>
-<div class="foto2">
     <tr>
-    <td><img src="photo/01.jpg" alt="Рокси" width="auto" height="auto"> </td>  
-    <td><img src="photo/02.jpg" alt="Рокси" width="auto" height="auto"> </td>  
-    <td><img src="photo/03.jpg" alt="Рокси" width="auto" height="auto"></td>  
-    <td><img src="photo/07.jpg" alt="Рокси" width="auto" height="auto"> </td>  
+        <td>А еще я Рокс, Роксюша, Роксичка, Свинюка, Кудасукабля, Кабелина, Собачатина и Лошадь.</td> 
+    </tr>
+    <tr>
+        <td>Официально я собака и моя порода американский стаффорд или амстафф.</td>
+    </tr>
+    <tr>
+        <td>Я родилась 27 декабря 2015 года. Люблю поскакать по полю и погонять бублик.</td>
     </tr>
 
     </table>
-    <p> Все фото </p>
-</div>
+<!--Контент о Рокси-->
+
+  
+<!--Контент Фото -->
+
+<h2 id="photo"> Фото </h2>
+
+    <table>
+
+    <tr>
+    <td > <img width="95%" height="auto" src="photo/04-2.jpg" alt="Рокси с мячиком"> </td>
+    <td > <img width="95%" height="auto" src="photo/05-2.jpg" alt="Рокси смотрит из окна машины"> </td>
+    <td > <img width="95%" height="auto" src="photo/06-2.jpg" alt="Рокси летом"> </td>
+    </tr>
+    </table>
+
+    <table>
+    <tr>
+    <td> <img width="95%" height="auto" src="photo/01.jpg" alt="Рокси с языком"> </td>
+    <td> <img width="95%" height="auto" src="photo/02.jpg" alt="Рокси читает"> </td>
+    <td> <img width="95%" height="auto" src="photo/03.jpg" alt="Рокси зимой"> </td>
+    <td> <img width="95%" height="auto" src="photo/07.jpg" alt="Рокси с языком"> </td>
+    </tr>
+    </table>
+
 
 <!--Контент Фото Конец-->
 
 <!--Контент Видео -->
 
-<h1> Видео </h1>
-<div class="video">
-        <p>  <br><video src="video/01.mp4" autoplay></video></br>
-        <br><video src="video/02.mp4" autoplay></video></br></p>
-    <p> Все видео </p>
-</div>
+<h2 id="video"> Видео </h2>
 
+<table>
+    <td><video img width="95%" height="auto" src="video/01.mp4" autoplay></video></td>
+    <td><video img width="95%" height="auto" src="video/02.mp4" autoplay></video></td>
+</table>
 
 <!--Контент Видео Конец-->
 
 <!--Контент Прочее -->
 
-<h1> Прочее </h1>
-    <ul class="other" div class="1nastya"><p><h2>А это я - Настёна, хозяйка этой милой собаки:</h2>
-        <br><img class="review-kot" src="photo/kot1.png" alt="Настя" ></br>
-        <br><img class="review-kot" src="photo/kot2.jpg" alt="Настя" ></br>
-        <br><img class="review-kot" src="photo/kot3.jpg" alt="Настя" ></br></p>
-</div>
+<h2 id="other"> Прочее </h2>
+    <div class="nastya">
+    <p><h3>А это я - Настёна, хозяйка этой милой собаки:</h3>
+    <table>
+    <td><img class="review-kot" src="photo/kot1.png" alt="Настя"></td>
+    <td><img class="review-kot" src="photo/kot2.jpg" alt="Настя"></td>
+    <td><img class="review-kot" src="photo/kot3.jpg" alt="Настя"></td></p>
+    </table>
 
-<div class="1rodnya">
-    <p><h2>А это я, мой брат и моя сестра:</h2>
-        <br><img class="review-kot" src="photo/rox.jpg" alt="Рокси"></br>
-        <br><img class="review-kot" src="photo/brat.jpg" alt="Брат Рокси"></br>
-        <br><img class="review-kot" src="photo/sister.jpg" alt="Сестра Рокси"></br></p>
-</div></ul>
+    </div>
+
+<div class="rodnya">
+    <p><h3>А это я, мой брат и моя сестра:</h3>
+    <table>
+    <td><img class="review-kot" src="photo/rox.jpg" alt="Рокси"></td>
+    <td><img class="review-kot" src="photo/brat.jpg" alt="Брат Рокси"></td>
+    <td><img class="review-kot" src="photo/sister.jpg" alt="Сестра Рокси"></td></p>
+    </table>
+</div>
 
 <!--Контент Прочее Конец -->
 
 </body>
+
 <!-- Футер -->
-<footer class="review-footer">
-   
-    <nav>
-            <table>
-                    <td><a class="logo" title="Главная"></a></td>
-                    <td><a class="links" href="/about.html">О Рокси</a></td>
-                    <td><a class="links" href="/photo.html">Фото</a></td>
-                    <td><a class="links" href="/video.html">Видео</a></td>
-                    <td><a class="links" href="/Other.html">Прочее</a></td>
-                </table>
-    </nav>
+
+<footer class="review-header">
+    
+    <table width="40%">
+        <colgroup>
+            <col width="50">
+            <col width="120">
+            <col width="120">
+            <col width="120">
+            <col width="120">
+        </colgroup>
+
+        <td><a class="logo" img src="photo/logo2.png" alt="лого" title="Главная"></a></td>
+        <td><a class="links" href="#about">О Рокси</a></td>
+        <td><a class="links" href="#photo">Фото</a></td>
+        <td><a class="links" href="#video">Видео</a></td>
+        <td><a class="links" href="#other">Прочее</a></td>
+    </table>
+
 </footer>
+
 <!-- Футер -->
+
 </html>
